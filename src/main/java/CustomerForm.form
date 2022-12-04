@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="CustomerForm">
+  <grid id="27dc6" binding="panel" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="1327" y="915" width="1634" height="318"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="a5de5" class="javax.swing.JButton" binding="notificationsButton">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="15" left="0" bottom="30" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-16440538"/>
+          <foreground color="-394241"/>
+          <text value="`0` Notifications"/>
+        </properties>
+      </component>
+      <component id="e429b" class="javax.swing.JButton" binding="removeAccount">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="15" left="400" bottom="0" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-10525075"/>
+          <foreground color="-1"/>
+          <text value="Review Loan"/>
+        </properties>
+      </component>
+      <component id="512c3" class="javax.swing.JButton" binding="HoldAccount">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="15" left="400" bottom="0" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-10525075"/>
+          <foreground color="-1"/>
+          <text value="Approve Account"/>
+        </properties>
+      </component>
+      <component id="d8294" class="javax.swing.JLabel" binding="todayDate">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="20" left="150" bottom="0" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Sunday, 11th November 2022"/>
+        </properties>
+      </component>
+      <component id="e82db" class="javax.swing.JButton" binding="searchByName">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="15" left="10" bottom="0" right="40" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-10525075"/>
+          <foreground color="-1"/>
+          <text value="Search By Name"/>
+        </properties>
+      </component>
+      <component id="6477a" class="javax.swing.JButton" binding="statementByName">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="15" left="10" bottom="70" right="40" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-10525075"/>
+          <foreground color="-1"/>
+          <text value="Get Statement"/>
+        </properties>
+      </component>
+      <component id="9f3df" class="javax.swing.JButton" binding="searchByAccount">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="15" left="10" bottom="0" right="40" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-10525075"/>
+          <foreground color="-1"/>
+          <text value="Search By Account"/>
+        </properties>
+      </component>
+      <component id="9d706" class="javax.swing.JButton" binding="logoutButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="15" left="10" bottom="0" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-2209206"/>
+          <foreground color="-1"/>
+          <text value="Logout"/>
+        </properties>
+      </component>
+      <component id="5992d" class="javax.swing.JButton" binding="setInterestRate">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="15" left="400" bottom="70" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-10525075"/>
+          <foreground color="-1"/>
+          <text value="Set Interest Rate"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
